@@ -1,5 +1,5 @@
-<div *ngIf="weatherData">
-  <h2>{{ weatherData.name }}</h2>
-  <p>{{ weatherData.weather[0].description }}</p>
-  <p>Temperatura: {{ weatherData.main.temp }}°C</p>
+<div class="weather-info-container">
+  <h2 class="weather-info-title">{{ weatherData.name }}</h2>
+  <p class="weather-info-description">{{ weatherData.weather[0].description }}</p>
+  <p class="weather-info-temperature">Temperatura: {{ weatherData.main.temp }}°C</p>
 </div>
